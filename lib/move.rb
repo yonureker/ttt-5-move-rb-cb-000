@@ -7,8 +7,11 @@ def display_board(board)
 end
 
 def move(board, position, character = "X")
+  board[converted_input] = character
 end
 
 def input_to_index(user_input)
   converted_input = user_input.to_i - 1
 end
+
+move(board, 4, "O")
